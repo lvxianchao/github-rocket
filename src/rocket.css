@@ -1,0 +1,17 @@
+#kkjofhv {
+    width: 980px;
+    height: 0;
+    position: sticky;
+    bottom: 200px;
+    display: none;
+}
+
+#kkjofhv svg {
+    position: relative;
+    left: 980px;
+    cursor: pointer;
+    fill: #bbb;
+}
+#kkjofhv svg:hover {
+    fill: #000;
+}

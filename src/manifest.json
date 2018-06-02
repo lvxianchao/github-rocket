@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "name": "Github Rocket",
+    "description": "A button to return to the top for Github",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "rocket-black.png"
+    },
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+    },
+    "permissions": [
+        "https://github.com/"
+    ],
+    "content_scripts": [{
+        "matches": ["https://github.com/*"],
+        "js": ["rocket.js"],
+        "css": ["rocket.css"]
+    }]
+}
