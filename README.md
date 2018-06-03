@@ -1,6 +1,6 @@
 # Github Rocket
 
-**Github Rocket** is a extension for Chrome which is used return to the top for Github README pages.
+**Github Rocket** is a extension for Chrome which is used to return to the top for Github README pages.
 
 ## Install
 
